@@ -6,7 +6,7 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.2.7.RELEASE</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<relativePath/> 
 	</parent>
 	<groupId>SKT</groupId>
 	<artifactId>SKT</artifactId>
@@ -47,14 +47,14 @@
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-gcp-starter-storage</artifactId>
 		</dependency>
-		<!-- ส่วนที่เพิ่มเข้ามา -->
+
 		        <dependency>
 		            <groupId>org.projectlombok</groupId>
 		            <artifactId>lombok</artifactId>
 		            <version>1.18.0</version>
 		            <scope>provided</scope>
 		        </dependency>
-		        <!-- ส่วนที่เพิ่มเข้ามา -->
+
 		    </dependencies>
 				<dependencies>
         <dependency>
