@@ -376,7 +376,7 @@ public class KitchenSinkController {
                 ConfirmTemplate confirmTemplate = new ConfirmTemplate(
                         "Do it?",
                         new URIAction("ไปแทงถั่ว",
-                        URI.create("https://liff.line.me/1654113772-0zxRqQL1"), null),
+                        URI.create("line://app/1654113772-0zxRqQL1"), null),
                         new MessageAction("No", "No!")
                 );
                 TemplateMessage templateMessage = new TemplateMessage("Confirm alt text", confirmTemplate);
@@ -391,7 +391,7 @@ public class KitchenSinkController {
                         "Hello, my button",
                         Arrays.asList(
                                 new URIAction("Go to line.me",
-                                              URI.create("https://liff.line.me/1654113772-0zxRqQL1"), null),
+                                              URI.create("line://app/1654113772-0zxRqQL1"), null),
                                 new PostbackAction("Say hello1",
                                                    "hello こんにちは"),
                                 new PostbackAction("言 hello2",
@@ -410,9 +410,9 @@ public class KitchenSinkController {
                         Arrays.asList(
                                 new CarouselColumn(imageUrl, "hoge", "fuga", Arrays.asList(
                                         new URIAction("Go to line.me",
-                                                      URI.create("https://line.me"), null),
+                                                      URI.create("line://app/1654113772-0zxRqQL1"), null),
                                         new URIAction("Go to line.me",
-                                                      URI.create("https://line.me"), null),
+                                                      URI.create("line://app/1654113772-0zxRqQL1"), null),
                                         new PostbackAction("Say hello1",
                                                            "hello こんにちは")
                                 )),
@@ -464,7 +464,7 @@ public class KitchenSinkController {
                         Arrays.asList(
                                 new ImageCarouselColumn(imageUrl,
                                                         new URIAction("Goto line.me",
-                                                                      URI.create("https://liff.line.me/1654113772-MnJeQDPm"), null)
+                                                                      URI.create("line://app/1654113772-0zxRqQL1"), null)
                                 ),
                                 new ImageCarouselColumn(imageUrl,
                                                         new MessageAction("Say message",
@@ -493,7 +493,7 @@ public class KitchenSinkController {
                         .baseSize(new ImagemapBaseSize(1040, 1040))
                         .actions(Arrays.asList(
                                 URIImagemapAction.builder()
-                                                 .linkUri("https://liff.line.me/1654113772-MnJeQDPm")
+                                                 .linkUri("line://app/1654113772-0zxRqQL1")
                                                  .area(new ImagemapArea(0, 0, 520, 520))
                                                  .build(),
                                 URIImagemapAction.builder()
@@ -526,7 +526,7 @@ public class KitchenSinkController {
                                              .area(new ImagemapArea(40, 46, 952, 536))
                                              .externalLink(
                                                      new ImagemapExternalLink(
-                                                             URI.create("line://app/1654113772-MnJeQDPm"),
+                                                             URI.create("line://app/1654113772-0zxRqQL1"),
                                                              "See More")
                                              )
                                              .build()
