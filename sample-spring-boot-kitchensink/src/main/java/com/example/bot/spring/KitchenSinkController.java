@@ -375,7 +375,8 @@ public class KitchenSinkController {
             case "confirm": {
                 ConfirmTemplate confirmTemplate = new ConfirmTemplate(
                         "Do it?",
-                        new MessageAction("Yes", "Yes!"),
+                        new URIAction("ไปแทงถั่ว",
+                        URI.create("https://liff.line.me/1654113772-0zxRqQL1"), null),
                         new MessageAction("No", "No!")
                 );
                 TemplateMessage templateMessage = new TemplateMessage("Confirm alt text", confirmTemplate);
@@ -390,7 +391,7 @@ public class KitchenSinkController {
                         "Hello, my button",
                         Arrays.asList(
                                 new URIAction("Go to line.me",
-                                              URI.create("https://line.me"), null),
+                                              URI.create("https://liff.line.me/1654113772-0zxRqQL1"), null),
                                 new PostbackAction("Say hello1",
                                                    "hello こんにちは"),
                                 new PostbackAction("言 hello2",
