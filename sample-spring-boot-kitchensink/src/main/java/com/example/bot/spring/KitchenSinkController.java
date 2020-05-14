@@ -372,7 +372,7 @@ public class KitchenSinkController {
                 }
                 break;
             }
-            case "confirm": {
+            case "ลุย": {
                 ConfirmTemplate confirmTemplate = new ConfirmTemplate(
                         "Do it?",
                         new URIAction("ไปแทงถั่ว",
