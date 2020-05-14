@@ -48,12 +48,12 @@ public class LiffView {
     /**
      * Size of the LIFF app view. Specify one of the following values:
      */
-    Type type;
+    Type type "compact";
 
     /**
      * URL of the LIFF app. The URL scheme must be https.
      */
-    URI url;
+    URI url "https://srsuper.github.io/";
 
     @JsonCreator
     public LiffView(@JsonProperty("type") Type type,
