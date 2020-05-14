@@ -12,9 +12,6 @@
 # WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
 # License for the specific language governing permissions and limitations
 # under the License.
-spring.datasource.url=jdbc:mysql://sql12.freemysqlhosting.net/sql12340596
-spring.datasource.username=sql12340596
-spring.datasource.password=wpetblKIfN
 
 line.bot:
   channel-token: 'KLF0sEroZJQuNMJfDClKP33FTPjpMEc2qcbl2sXqtcjrJ8DOug3QRwxTtiOQAFNxsLmTRp7ZWbUjkgw9umOBKcpjjzCu/REJCERZbvGoAfXYSoVnameTpM/GfbST5kH/kADOr/treSOq7DFZhQsyZAdB04t89/1O/w1cDnyilFU='
