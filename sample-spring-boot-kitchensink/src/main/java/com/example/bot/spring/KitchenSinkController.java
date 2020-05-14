@@ -554,7 +554,7 @@ public class KitchenSinkController {
                            TextMessage.builder()
                                       .text("Hello, I'm Charging Bull~")
                                       .sender(Sender.builder()
-                                                    .name("Cat")
+                                                    .name("ki9")
                                                     .iconUrl(createUri("/static/icon/ki9.png"))
                                                     .build())
                                       .build());
