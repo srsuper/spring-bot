@@ -480,7 +480,7 @@ public class KitchenSinkController {
                 this.reply(replyToken, templateMessage);
                 break;
             }
-            case "imagemap":
+            case "แทง":
                 //            final String baseUrl,
                 //            final String altText,
                 //            final ImagemapBaseSize imagemapBaseSize,
@@ -488,7 +488,7 @@ public class KitchenSinkController {
                 this.reply(replyToken, ImagemapMessage
                         .builder()
                         .baseUrl(createUri("/static/rich"))
-                        .altText("This is alt text")
+                        .altText("เชิญเลือกตามอัธยาศัย")
                         .baseSize(new ImagemapBaseSize(1040, 1040))
                         .actions(Arrays.asList(
                                 URIImagemapAction.builder()
@@ -504,7 +504,7 @@ public class KitchenSinkController {
                                                  .area(new ImagemapArea(0, 520, 520, 520))
                                                  .build(),
                                 MessageImagemapAction.builder()
-                                                     .text("URANAI!")
+                                                     .text("แทง 4 !")
                                                      .area(new ImagemapArea(520, 520, 520, 520))
                                                      .build()
                         ))
