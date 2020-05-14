@@ -463,7 +463,7 @@ public class KitchenSinkController {
                         Arrays.asList(
                                 new ImageCarouselColumn(imageUrl,
                                                         new URIAction("Goto line.me",
-                                                                      URI.create("https://line.me"), null)
+                                                                      URI.create("https://liff.line.me/1654113772-MnJeQDPm"), null)
                                 ),
                                 new ImageCarouselColumn(imageUrl,
                                                         new MessageAction("Say message",
@@ -492,15 +492,15 @@ public class KitchenSinkController {
                         .baseSize(new ImagemapBaseSize(1040, 1040))
                         .actions(Arrays.asList(
                                 URIImagemapAction.builder()
-                                                 .linkUri("https://store.line.me/family/manga/en")
+                                                 .linkUri("https://liff.line.me/1654113772-MnJeQDPm")
                                                  .area(new ImagemapArea(0, 0, 520, 520))
                                                  .build(),
                                 URIImagemapAction.builder()
-                                                 .linkUri("https://store.line.me/family/music/en")
+                                                 .linkUri("line://app/1654113772-MnJeQDPm")
                                                  .area(new ImagemapArea(520, 0, 520, 520))
                                                  .build(),
                                 URIImagemapAction.builder()
-                                                 .linkUri("https://store.line.me/family/play/en")
+                                                 .linkUri("line://app/1654113772-MnJeQDPm")
                                                  .area(new ImagemapArea(0, 520, 520, 520))
                                                  .build(),
                                 MessageImagemapAction.builder()
@@ -525,7 +525,7 @@ public class KitchenSinkController {
                                              .area(new ImagemapArea(40, 46, 952, 536))
                                              .externalLink(
                                                      new ImagemapExternalLink(
-                                                             URI.create("https://example.com/see_more.html"),
+                                                             URI.create("line://app/1654113772-MnJeQDPm"),
                                                              "See More")
                                              )
                                              .build()
