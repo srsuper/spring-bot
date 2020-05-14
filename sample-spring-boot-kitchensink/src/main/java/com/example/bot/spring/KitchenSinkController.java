@@ -552,10 +552,10 @@ public class KitchenSinkController {
             case "icon":
                 this.reply(replyToken,
                            TextMessage.builder()
-                                      .text("Hello, I'm cat! Meow~")
+                                      .text("Hello, I'm Charging Bull~")
                                       .sender(Sender.builder()
                                                     .name("Cat")
-                                                    .iconUrl(createUri("/static/icon/cat.png"))
+                                                    .iconUrl(createUri("/static/icon/ki9.png"))
                                                     .build())
                                       .build());
                 break;
