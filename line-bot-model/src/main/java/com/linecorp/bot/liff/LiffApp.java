@@ -26,7 +26,7 @@ public class LiffApp {
     /**
      LIFF app ID.
      */
-    String liffId "https://liff.line.me/1654113772-MnJeQDPm";
+    String liffId;
 
     /**
      * {@link LiffView} object which contains the URL and view size of the LIFF app.
