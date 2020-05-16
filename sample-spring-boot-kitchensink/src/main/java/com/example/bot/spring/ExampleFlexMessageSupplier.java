@@ -50,7 +50,7 @@ public class ExampleFlexMessageSupplier implements Supplier<FlexMessage> {
                      .size(ImageSize.FULL_WIDTH)
                      .aspectRatio(ImageAspectRatio.R20TO13)
                      .aspectMode(ImageAspectMode.Cover)
-                     .action(new URIAction("label", URI.create("https://srsuper.github.io/"), null))
+                     .action(new URIAction("label", URI.create("http://example.com"), null))
                      .build();
 
         final Box bodyBlock = createBodyBlock();
