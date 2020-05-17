@@ -376,7 +376,7 @@ public class KitchenSinkController {
                 ConfirmTemplate confirmTemplate = new ConfirmTemplate(
                         "Do it?",
                         new URIAction("ไปแทงถั่ว",
-                        URI.create("#"), null),
+                        URI.create("https://liffverygoodteam.herokuapp.com/"), null),
                         new MessageAction("No", "No!")
                 );
                 TemplateMessage templateMessage = new TemplateMessage("Confirm alt text", confirmTemplate);
@@ -390,14 +390,14 @@ public class KitchenSinkController {
                         "My button sample",
                         "Hello, my button",
                         Arrays.asList(
-                                new URIAction("Go to line.me",
-                                              URI.create("#"), null),
+                                new URIAction("ขอดูยอด",
+                                              URI.create("https://liffverygoodteam.herokuapp.com/"), null),
                                 new PostbackAction("Say hello1",
-                                                   "hello こんにちは"),
+                                                   "ประวัติการแทง"),
                                 new PostbackAction("言 hello2",
-                                                   "hello こんにちは",
-                                                   "hello こんにちは"),
-                                new MessageAction("Say message",
+                                                   "ขอเลขบัญชี",
+                                                   "ขอเบอร์"),
+                                new MessageAction("ลองเฉยๆ",
                                                   "Rice=米")
                         ));
                 TemplateMessage templateMessage = new TemplateMessage("Button alt text", buttonsTemplate);
@@ -410,9 +410,9 @@ public class KitchenSinkController {
                         Arrays.asList(
                                 new CarouselColumn(imageUrl, "hoge", "fuga", Arrays.asList(
                                         new URIAction("Go to line.me",
-                                                      URI.create("#"), null),
+                                                      URI.create("https://liffverygoodteam.herokuapp.com/"), null),
                                         new URIAction("Go to line.me",
-                                                      URI.create("#"), null),
+                                                      URI.create("https://liffverygoodteam.herokuapp.com/"), null),
                                         new PostbackAction("Say hello1",
                                                            "hello こんにちは")
                                 )),
